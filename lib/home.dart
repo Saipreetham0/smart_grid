@@ -115,6 +115,8 @@ class _HomePageState extends State<HomePage> {
                     }
                     return const CircularProgressIndicator();
                   }),
+              const SizedBox(height: 20),
+              Image.asset('assets/images/solar-image.jpg'),
             ],
           ),
         ));
